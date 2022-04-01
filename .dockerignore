@@ -1,0 +1,11 @@
+.git
+.gitignore
+
+.eslintcache
+
+node_modules
+Dockerfile
+
+.husky
+.vscode
+.idea

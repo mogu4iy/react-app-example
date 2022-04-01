@@ -1,14 +1,18 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "module": "commonjs",
     "target": "es5",
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@styled/*": ["src/components/styled/*"],
-      "@pages/*": ["src/components/pages/*"],
-      "@assets/*": ["src/assets/*"],
-      "@utils/*": ["src/utils/*"]
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@views/*": ["views/*"],
+      "@config/*": ["config/*"],
+      "@services/*": ["services/*"],
+      "@plugins/*": ["plugins/*"],
+      "@utils/*": ["utils/*"],
+      "@redux/*": ["redux/*"]
     }
   },
   "include": ["src"]
